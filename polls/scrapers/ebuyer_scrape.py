@@ -50,7 +50,7 @@ def tool(url):
     for a in soup.find_all(class_='grid-item js-listing-product'):
         name = a.find(class_='grid-item__title')
         name = name.find('a')
-        site = 'https://www.ebuyer.com/' + name['href']
+        site = 'https://www.ebuyer.com' + name['href']
         sites.append(site)
 
     brands = []

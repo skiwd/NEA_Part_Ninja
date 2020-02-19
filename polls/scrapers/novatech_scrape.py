@@ -50,7 +50,7 @@ def tool(url):
         b = a.find('h2')
         c = b.find('a')
         d = c['href']
-        d = 'https://novatech.co.uk' + d.strip('\ ').strip("'")
+        d = 'https://novatech.co.uk' + d.strip('\ ').strip("'")[:-1]
         sites.append(d)
 
     brands = []

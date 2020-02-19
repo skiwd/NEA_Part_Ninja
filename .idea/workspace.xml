@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fcb0d04-a092-4080-8dbe-b495b354ff86" name="Default Changelist" comment="" />
+    <list default="true" id="4fcb0d04-a092-4080-8dbe-b495b354ff86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/scrapers/ebuyer.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/scrapers/ebuyer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/scrapers/ebuyer_scrape.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/scrapers/ebuyer_scrape.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/scrapers/novatech.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/scrapers/novatech.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/scrapers/novatech_scrape.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/scrapers/novatech_scrape.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +61,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectId" id="1UkfFbK9nRsYOAcIyfvE442qvPP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -62,6 +75,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/polls/static" />
@@ -79,7 +93,7 @@
       <recent name="C:\Users\solho\Documents\NEA\webscrape_project\polls\management\commands" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.datscript2 (1)">
+  <component name="RunManager" selected="Python.novatech_scrape">
     <configuration name="awdit_scrape" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="datscript2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="datscript2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="novatech_scrape (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ebuyer_scrape" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,12 +168,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/polls" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/polls/scrapers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\solho\Documents\NEA\webscrape_project\polls\scrapers\novatech_scrape.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/polls/scrapers/ebuyer_scrape.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,12 +190,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/polls/scrapers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\solho\Documents\NEA\webscrape_project\polls\scrapers\novatech_scrape.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/polls/scrapers/novatech_scrape.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,13 +228,20 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.django" />
+      <item itemvalue="Python.awdit_scrape" />
+      <item itemvalue="Python.datscript2" />
+      <item itemvalue="Python.ebuyer_scrape" />
+      <item itemvalue="Python.novatech_scrape" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.datscript2 (1)" />
+        <item itemvalue="Python.ebuyer_scrape" />
+        <item itemvalue="Python.novatech_scrape" />
+        <item itemvalue="Python.datscript2" />
         <item itemvalue="Python.awdit_scrape" />
         <item itemvalue="Python.ebuyer_scrape" />
-        <item itemvalue="Python.novatech_scrape (1)" />
-        <item itemvalue="Python.novatech_scrape" />
       </list>
     </recent_temporary>
   </component>
@@ -279,6 +300,7 @@
       <workItem from="1580729138970" duration="2876000" />
       <workItem from="1581011149261" duration="6035000" />
       <workItem from="1581329991650" duration="6494000" />
+      <workItem from="1582119067574" duration="2250000" />
     </task>
     <servers />
   </component>
@@ -294,10 +316,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="75" key="#SQL_Dialects/0.0.1536.834@0.0.1536.834" timestamp="1576421660629" />
-    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576604262371">
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582122752952">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1576604262371" />
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1582122752952" />
     <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578071376516">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -306,22 +328,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1581011191683" />
-    <state width="1493" height="146" key="GridCell.Tab.0.bottom" timestamp="1581329964118">
+    <state width="1493" height="146" key="GridCell.Tab.0.bottom" timestamp="1582123842560">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="146" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581329964118" />
-    <state width="1493" height="146" key="GridCell.Tab.0.center" timestamp="1581329964117">
+    <state width="1493" height="146" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582123842560" />
+    <state width="1493" height="146" key="GridCell.Tab.0.center" timestamp="1582123842559">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="146" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581329964117" />
-    <state width="1493" height="146" key="GridCell.Tab.0.left" timestamp="1581329964117">
+    <state width="1493" height="146" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582123842559" />
+    <state width="1493" height="146" key="GridCell.Tab.0.left" timestamp="1582123842559">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="146" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581329964117" />
-    <state width="1493" height="146" key="GridCell.Tab.0.right" timestamp="1581329964117">
+    <state width="1493" height="146" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582123842559" />
+    <state width="1493" height="146" key="GridCell.Tab.0.right" timestamp="1582123842560">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="146" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581329964117" />
+    <state width="1493" height="146" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582123842560" />
     <state width="1342" height="243" key="GridCell.Tab.1.bottom" timestamp="1576102446939">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -342,10 +364,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="65" y="35" width="1230" height="713" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1581332973369" />
-    <state x="465" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1581329992125">
+    <state x="465" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1582119682298">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="465" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1581329992125" />
+    <state x="465" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1582119682298" />
+    <state x="577" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582123882247">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="577" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1582123882247" />
     <state x="455" y="263" width="705" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1581011249721">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -363,8 +389,10 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/webscrape_project$ebuyer_scrape__1_.coverage" NAME="ebuyer_scrape (1) Coverage Results" MODIFIED="1582122662190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polls/scrapers" />
     <SUITE FILE_PATH="coverage/webscrape_project$awdit_scrape.coverage" NAME="awdit_scrape Coverage Results" MODIFIED="1581327492055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polls/scrapers" />
     <SUITE FILE_PATH="coverage/webscrape_project$datscript2__1_.coverage" NAME="datscript2 (1) Coverage Results" MODIFIED="1581329724880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polls" />
+    <SUITE FILE_PATH="coverage/webscrape_project$novatech_scrape__2_.coverage" NAME="novatech_scrape (2) Coverage Results" MODIFIED="1582122618623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polls/scrapers" />
     <SUITE FILE_PATH="coverage/webscrape_project$overclockers_scrape_gpu.coverage" NAME="overclockers_scrape_gpu Coverage Results" MODIFIED="1576767291481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polls" />
     <SUITE FILE_PATH="coverage/webscrape_project$ebuyer_scrape.coverage" NAME="ebuyer_scrape Coverage Results" MODIFIED="1578502120439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polls" />
     <SUITE FILE_PATH="coverage/webscrape_project$novatech_scrape__1_.coverage" NAME="novatech_scrape (1) Coverage Results" MODIFIED="1578077963906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polls" />
