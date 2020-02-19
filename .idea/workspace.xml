@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4fcb0d04-a092-4080-8dbe-b495b354ff86" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UkfFbK9nRsYOAcIyfvE442qvPP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/polls/static" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\solho\Documents\NEA\webscrape_project\polls\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\solho\Documents\NEA\webscrape_project\polls\scrapers" />
+      <recent name="C:\Users\solho\Documents\NEA\webscrape_project\polls" />
+      <recent name="C:\Users\solho\Documents\NEA\webscrape_project\polls\management\commands" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.datscript2 (1)">
+    <configuration name="awdit_scrape" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/polls/scrapers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/polls/scrapers/awdit_scrape.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="datscript2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/polls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/polls/datscript2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ebuyer_scrape" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/polls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\solho\Documents\NEA\webscrape_project\polls\scrapers\ebuyer_scrape.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="novatech_scrape (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/polls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\solho\Documents\NEA\webscrape_project\polls\scrapers\novatech_scrape.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="novatech_scrape" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\solho\Documents\NEA\webscrape_project\polls\scrapers\novatech_scrape.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="django" type="Python.DjangoServer" factoryName="Django server">
+      <module name="django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="webscrape_project.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.datscript2 (1)" />
+        <item itemvalue="Python.awdit_scrape" />
+        <item itemvalue="Python.ebuyer_scrape" />
+        <item itemvalue="Python.novatech_scrape (1)" />
+        <item itemvalue="Python.novatech_scrape" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fcb0d04-a092-4080-8dbe-b495b354ff86" name="Default Changelist" comment="" />
+      <created>1570975768732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570975768732</updated>
+      <workItem from="1570975797498" duration="2381000" />
+      <workItem from="1570978209740" duration="1685000" />
+      <workItem from="1572622673361" duration="15440000" />
+      <workItem from="1574600997872" duration="8437000" />
+      <workItem from="1575044793648" duration="4732000" />
+      <workItem from="1575192402341" duration="4337000" />
+      <workItem from="1575230255374" duration="2232000" />
+      <workItem from="1575904567053" duration="559000" />
+      <workItem from="1575905413687" duration="796000" />
+      <workItem from="1575906818271" duration="949000" />
+      <workItem from="1575907915774" duration="7000" />
+      <workItem from="1576089020448" duration="5522000" />
+      <workItem from="1576095620069" duration="5692000" />
+      <workItem from="1576417964038" duration="11455000" />
+      <workItem from="1576437453239" duration="5127000" />
+      <workItem from="1576487796257" duration="15014000" />
+      <workItem from="1576603673867" duration="257000" />
+      <workItem from="1576604109163" duration="13000" />
+      <workItem from="1576604190845" duration="17000" />
+      <workItem from="1576604223433" duration="1364000" />
+      <workItem from="1576605615113" duration="19082000" />
+      <workItem from="1576671312793" duration="26001000" />
+      <workItem from="1576780988325" duration="9974000" />
+      <workItem from="1577975210047" duration="11358000" />
+      <workItem from="1578056443873" duration="5120000" />
+      <workItem from="1578061716633" duration="17156000" />
+      <workItem from="1578848236976" duration="657000" />
+      <workItem from="1579805839034" duration="3215000" />
+      <workItem from="1580721673256" duration="3522000" />
+      <workItem from="1580725340985" duration="2510000" />
+      <workItem from="1580729138970" duration="2876000" />
+      <workItem from="1581011149261" duration="6035000" />
+      <workItem from="1581329991650" duration="6494000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="75" key="#Inspections" timestamp="1576620734674">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="75" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1576620734674" />
+    <state x="361" y="75" key="#SQL_Dialects" timestamp="1576421660629">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="75" key="#SQL_Dialects/0.0.1536.834@0.0.1536.834" timestamp="1576421660629" />
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576604262371">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1576604262371" />
+    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578071376516">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1578071376516" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1581011191683">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1581011191683" />
+    <state width="1493" height="146" key="GridCell.Tab.0.bottom" timestamp="1581329964118">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="146" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581329964118" />
+    <state width="1493" height="146" key="GridCell.Tab.0.center" timestamp="1581329964117">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="146" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581329964117" />
+    <state width="1493" height="146" key="GridCell.Tab.0.left" timestamp="1581329964117">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="146" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581329964117" />
+    <state width="1493" height="146" key="GridCell.Tab.0.right" timestamp="1581329964117">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="146" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581329964117" />
+    <state width="1342" height="243" key="GridCell.Tab.1.bottom" timestamp="1576102446939">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1342" height="243" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1576102446939" />
+    <state width="1342" height="243" key="GridCell.Tab.1.center" timestamp="1576102446939">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1342" height="243" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1576102446939" />
+    <state width="1342" height="243" key="GridCell.Tab.1.left" timestamp="1576102446939">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1342" height="243" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1576102446939" />
+    <state width="1342" height="243" key="GridCell.Tab.1.right" timestamp="1576102446939">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1342" height="243" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1576102446939" />
+    <state x="65" y="35" width="1230" height="713" key="SettingsEditor" timestamp="1581332973369">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="65" y="35" width="1230" height="713" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1581332973369" />
+    <state x="465" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1581329992125">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="465" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1581329992125" />
+    <state x="455" y="263" width="705" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1581011249721">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="455" y="263" width="705" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.834@0.0.1536.834" timestamp="1581011249721" />
+    <state x="431" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1576439759997">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1576439759997" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="TileDictionary" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/webscrape_project$awdit_scrape.coverage" NAME="awdit_scrape Coverage Results" MODIFIED="1581327492055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polls/scrapers" />
+    <SUITE FILE_PATH="coverage/webscrape_project$datscript2__1_.coverage" NAME="datscript2 (1) Coverage Results" MODIFIED="1581329724880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polls" />
+    <SUITE FILE_PATH="coverage/webscrape_project$overclockers_scrape_gpu.coverage" NAME="overclockers_scrape_gpu Coverage Results" MODIFIED="1576767291481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polls" />
+    <SUITE FILE_PATH="coverage/webscrape_project$ebuyer_scrape.coverage" NAME="ebuyer_scrape Coverage Results" MODIFIED="1578502120439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polls" />
+    <SUITE FILE_PATH="coverage/webscrape_project$novatech_scrape__1_.coverage" NAME="novatech_scrape (1) Coverage Results" MODIFIED="1578077963906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polls" />
+    <SUITE FILE_PATH="coverage/webscrape_project$novatech_scrape.coverage" NAME="novatech_scrape Coverage Results" MODIFIED="1577977259304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

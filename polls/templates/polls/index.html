@@ -1,0 +1,137 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Part Ninja</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="{% static 'template.css' %}" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/225baf20f3.js" crossorigin="anonymous"></script>
+
+
+  </head>
+  <body>
+
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="/">Part Ninja</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarsDefault">
+      <form method="get" class=" search-form" action=".">
+    <ul class="navbar-nav mr-auto row-cols-8">
+      <div class="nav-item input-group col-2 ">
+        <input name="search" class="form-control py-2 border-right-0 border" formmethod="get"  type="search" id="searchbar" placeholder="Search">
+                  <span class="input-group-append form-control-feedback">
+                    <div class="input-group-text bg-white form-control-feedback">
+                        <i class="fa fa-search"></i>
+                    </div>
+                  </span>
+      </div>
+    <li><label  class="navbar-text" for="inputState1">Filter by type:</label></li>
+      <li class="nav-item dropdown col-md-2">
+                       <select name="type" id="inputState1" class="form-control">
+                            <option selected>Any</option>
+                            <option>Graphics Card</option>
+                            <option>Processor</option>
+                            <option>Memory</option>
+                        </select>
+      </li>
+    <li><label  class="navbar-text" for="inputState2">Filter by brand:</label></li>
+      <li class="nav-item col-md-2">
+                        <select name="brand" id="inputState2" class="form-control">
+                            <option selected>Any</option>
+                            {% for brand in brands %}
+                            <option>{{ brand }}</option>
+                            {% endfor %}
+                        </select>
+      </li>
+    <li><label  class="navbar-text" for="sortby">Sort by:</label></li>
+      <li class="nav-item col-md-2">
+                        <select name="sort" id="sortby" class="form-control">
+                            <option selected>Relevance</option>
+                            <option>Price Ascending</option>
+                            <option>Price Descending</option>
+                        </select>
+      </li>
+    <li class="col-md-1">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </li>
+    </ul>
+    </form>
+
+  </div>
+</nav>
+
+
+
+
+<main role="main" class="container">
+
+<form method="get" class="form-check" action=".">
+    <i class="col-sm-2">{{ count }} products</i>
+<div class="form-check form-check-inline">
+  <input name="overclockers" class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" checked>
+  <label class="form-check-label" for="inlineCheckbox1">overclockers.co.uk</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" checked>
+  <label class="form-check-label" for="inlineCheckbox2">novatech.co.uk</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" checked>
+  <label class="form-check-label" for="inlineCheckbox3">ebuyer.com</label>
+</div>
+    <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" checked>
+  <label class="form-check-label" for="inlineCheckbox3">awd-it.co.uk</label>
+</div>
+</form>
+
+
+
+<div class="row">
+
+{% if queryset %}
+    <ul id='prodlist' class="w3-ul w3-border">
+        {% for product in queryset %}
+            <hr class="a"/>
+            <li><label class="col-sm-10"><i>{{ product.brand }}</i></label></li>
+            <li><label class="col-sm-12"><a target="_blank"  href="/{{ product.id }}/">{{product.name}}</a></label></li>
+            <li><label class="col-sm-1">£{{ product.price }}</label></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No Products found.</p>
+{% endif %}
+</div>
+
+<div class="pagination">
+    <span class="step-links">
+        {% if queryset.has_previous %}
+            <a href="?page=1">&laquo; first</a>
+            <a href="?page={{ queryset.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ queryset.number }} of {{ queryset.paginator.num_pages }}.
+        </span>
+
+        {% if queryset.has_next %}
+            <a href="?page={{ queryset.next_page_number }}">next</a>
+            <a href="?page={{ queryset.paginator.num_pages }}">last &raquo;</a>
+        {% endif %}
+    </span>
+</div>
+
+</main><!-- /.container -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
